@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <script src="https://kit.fontawesome.com/ca23dd92c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="home">
+        <div class="wrapper">
+            <div class="top">
+                <img src="./assets/juno-logo.png" alt="logo juno college of technology">
+                <div id="dropDown1" class="dropbtn" onclick="myFunction(this); dropDownHeader();">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <div id="myDropDownTop" class="dropdown-menu">
+                            <li><a href="#course">Course</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#alumni">Alumni</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="pageOne">
+            <img src="./assets/image-1.jpg" alt="Instructor teaching a class full of students">
+            <div class="pageOneText">
+                <div class="wrapper">
+                    <h1>Tech Challenge</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam eaque consequatur obcaecati illum, debitis sint ipsa consequuntur porro ab? Quidem necessitatibus autem quibusdam magni officia tenetur repudiandae sunt impedit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pageTwo" id="blog">
+            <div class="wrapper">
+                <h2>Blog</h2>
+                <div class="pageTwoBlogs">
+
+                    <div class="pageTwoRightSide">
+                        <img src="./assets/image-4.jpg" alt="Instructor sitting at desk">
+                        <div class="pageTwoText">
+                            <h3 id="about">About us</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate omnis reprehenderit quaerat veniam distinctio excepturi maxime ut laboriosam qui vitae ipsum, voluptates atque hic, debitis quae iusto porro rem.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia similique tenetur sit explicabo nobis quia et soluta aut consequuntur! Quia laboriosam incidunt corrupti nam recusandae repudiandae vero tempore! Consequatur.</p>
+                        </div>
+                    </div>
+
+                    <div class="pageTwoLeftSide">
+                        <div id="myReadMore" class="pageTwoLeftSideBottom">
+                            <img src="./assets/image-5.jpg" alt="Two classmates working on their laptops during class">
+                            <div class="pageTwoText">
+                                <p>APR 30, 2019</p>
+                                <h3>Juno Tech Test</h3>
+                                <p class="pageTwoInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint laboriosam voluptates, nulla ea sed debitis vero natus recusandae dolore animi maxime necessitatibus esse, architecto, minima iste.</p>
+                                <a class="button1" href="">Read more</a> 
+                            </div>   
+                        </div>
+
+                        <div class="pageTwoLeftSideTop">
+                            <div class="pageTwoLeftSideTopLeft">
+                                <img src="./assets/image-2.jpg" alt="Three classmates standing strongly together">
+                                <div class="pageTwoText">
+                                    <p>MAR 9, 2019</p>
+                                    <h3>Juno Tech Test</h3>
+                                    <p class="pageTwoInfo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eos eveniet eveniet.</p>
+                                    <a class="button1" href="">Read more</a> 
+                                </div>
+                            </div>
+
+                            <div id="myReadMore2" class="pageTwoLeftSideTopRight">
+                                <img src="./assets/image-3.jpg" alt="Instructor providing one on one guidance">
+                                <div class="pageTwoText">
+                                    <p>MAR 15, 2019</p>
+                                    <h3>Juno Tech Test</h3>
+                                    <p class="pageTwoInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste ipsam architecto. </p>
+                                    <a class="button1" href="">Read more</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dropDown2" class="dropbtn" onclick="myFunction(this); myBlogs();">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pageThree" id="course">
+            <div class="wrapper">
+                <h2>Related post:</h2>
+                <div class="pageThreeAll">
+
+                    <div class="pageThreePart1">
+                        <img src="./assets/image-6.jpg" alt="Students eating salad at a gathering at Juno college">
+                        <div class="pageThreeText">
+                            <p>MAR 7, 2019</p>
+                            <h3>Juno Tech Test</h3>
+                            <p class="pageThreeInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste ipsam architecto. </p>
+                            <a class="button2" href="">Read more</a> 
+                        </div>
+                    </div>
+
+                    <div id="myReadMorePost" class="pageThreePart2">
+                        <img src="./assets/image-7.jpg" alt="Students implementing code on their labtops">
+                        <div class="pageThreeText">
+                            <p>MAR 13, 2019</p>
+                            <h3>Juno Tech Test</h3>
+                            <p class="pageThreeInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste ipsam architecto. </p>
+                            <a class="button2" href="">Read more</a> 
+                        </div>
+                    </div>
+
+                    <div id="myReadMorePost2" class="pageThreePart3">
+                        <img src="./assets/image-8.jpg" alt="Students paying attention in class">
+                        <div class="pageThreeText">
+                            <p>MAR 21, 2019</p>
+                            <h3>Juno Tech Test</h3>
+                            <p class="pageThreeInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste ipsam architecto. </p>
+                            <a class="button2" href="">Read more</a> 
+                        </div>
+                    </div>
+
+                    <div id="dropDown3" class="dropbtn" onclick="myFunction(this); myPosts();">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="pageFooter">
+
+                <div class="mailingList" id="alumni">
+                    <h4>Join our mailing list</h4>
+                    <form action="#" method="POST" name="mailUs">
+                        <label for="userEmail" class="sr-only">Enter email here</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address" required="true">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente eveniet!</p>
+                    <div class="junoLinks">
+                        <a href="https://www.facebook.com/junocollegeoftech/?rc=p"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/junocollege?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/junocollege/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/HackerYou"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <img src="./assets/Juno-logo-white.png" alt="Logo Juno College of Technology">
+                    <h4>Juno Tech Test</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero inventore architecto, voluptatum minus placeat dolorem cupiditate possimus!</p>
+                    <div id="dropDown4" class="dropbtn" onclick="myFunction(this); dropDownFooter();">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>   
+                    <nav>
+                        <ul>
+                            <div id="myDropDown" class="dropdown-content">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#course">Course</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#alumni">Alumni</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                </div>
+                        </ul>
+                    </nav>
+                    <p class="endCopyright"> &#169 2012-2019 Juno College of Technology</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // w3schools animated menu icon
+            function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        // Menu expanded items
+            function dropDownHeader() {
+            document.getElementById("myDropDownTop").classList.toggle("show");
+        }
+            function myBlogs() {
+            document.getElementById("myReadMore").classList.toggle("more");
+            document.getElementById("myReadMore2").classList.toggle("more");
+        }
+        function myPosts() {
+            document.getElementById("myReadMorePost").classList.toggle("morePost");
+            document.getElementById("myReadMorePost2").classList.toggle("morePost");
+        }
+        function dropDownFooter() {
+            document.getElementById("myDropDown").classList.toggle("show");
+        }
+
+    </script>
+</body>
+</html>
